@@ -1,7 +1,7 @@
 # cheme_545_hw1
 This repository contains implementations for functions that parsing a dictionary containing lab data and compute molecular weights.
 
-For the extract_parameter function, I used brackets to index into the dictionaries and lists. I used a try except block to handle key errors and index errors.
+For the `extract_parameter` function, I used brackets to index into the dictionaries and lists. I used a `try` `except` block to handle key errors and index errors.
 
 Example usage:
 ```
@@ -10,7 +10,7 @@ extract_parameter("distillation_column", "temperature", 1)
 
 ```
 
-For the calculate_solution_weights function, I wrote a helper function that parses the chemical formula and molarity from the input string. I wrote another helper function that computes the solute mass, constructs the final output, and handles the case where the chemical formula is not in our list of known molecular weights. I used `map` to map this funciton over all elements of the input list and `list` to put the values yielded by the resulting iterator into a list.
+For the `calculate_solution_weights` function, I wrote a helper function that parses the chemical formula and molarity from the input string. I wrote another helper function that computes the solute mass, constructs the final output, and handles the case where the chemical formula is not in our list of known molecular weights. I used `map` to map this funciton over all elements of the input list and `list` to put the values yielded by the resulting iterator into a list.
 
 Example usage:
 ```
